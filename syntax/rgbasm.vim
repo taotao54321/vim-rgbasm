@@ -111,6 +111,43 @@ syntax keyword rgbasmSpecialMnemonic stop
 
 syntax case match
 
+syntax keyword rgbasmBuiltinFunction ACOS
+syntax keyword rgbasmBuiltinFunction ASIN
+syntax keyword rgbasmBuiltinFunction ATAN
+syntax keyword rgbasmBuiltinFunction ATAN2
+syntax keyword rgbasmBuiltinFunction BANK
+syntax keyword rgbasmBuiltinFunction CEIL
+syntax keyword rgbasmBuiltinFunction CHARLEN
+syntax keyword rgbasmBuiltinFunction CHARSUB
+syntax keyword rgbasmBuiltinFunction COS
+syntax keyword rgbasmBuiltinFunction DEF
+syntax keyword rgbasmBuiltinFunction DIV
+syntax keyword rgbasmBuiltinFunction FLOOR
+syntax keyword rgbasmBuiltinFunction FMOD
+syntax keyword rgbasmBuiltinFunction HIGH
+syntax keyword rgbasmBuiltinFunction INCHARMAP
+syntax keyword rgbasmBuiltinFunction ISCONST
+syntax keyword rgbasmBuiltinFunction LOG
+syntax keyword rgbasmBuiltinFunction LOW
+syntax keyword rgbasmBuiltinFunction MUL
+syntax keyword rgbasmBuiltinFunction POW
+syntax keyword rgbasmBuiltinFunction ROUND
+syntax keyword rgbasmBuiltinFunction SECTION
+syntax keyword rgbasmBuiltinFunction SIN
+syntax keyword rgbasmBuiltinFunction SIZEOF
+syntax keyword rgbasmBuiltinFunction STARTOF
+syntax keyword rgbasmBuiltinFunction STRCAT
+syntax keyword rgbasmBuiltinFunction STRCMP
+syntax keyword rgbasmBuiltinFunction STRFMT
+syntax keyword rgbasmBuiltinFunction STRIN
+syntax keyword rgbasmBuiltinFunction STRLEN
+syntax keyword rgbasmBuiltinFunction STRLWR
+syntax keyword rgbasmBuiltinFunction STRRIN
+syntax keyword rgbasmBuiltinFunction STRRPL
+syntax keyword rgbasmBuiltinFunction STRSUB
+syntax keyword rgbasmBuiltinFunction STRUPR
+syntax keyword rgbasmBuiltinFunction TAN
+
 highlight default link rgbasmDecNumber rgbasmNumber
 highlight default link rgbasmHexNumber rgbasmNumber
 highlight default link rgbasmBinNumber rgbasmNumber
@@ -130,6 +167,7 @@ highlight default link rgbasmComment Comment
 highlight default link rgbasmTodo Todo
 highlight default link rgbasmDirective PreProc
 highlight default link rgbasmDataDirective Type
+highlight default link rgbasmBuiltinFunction Function
 highlight default link rgbKeyword Keyword
 
 let b:current_syntax = 'rgbasm'
