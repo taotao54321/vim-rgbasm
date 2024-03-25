@@ -30,9 +30,9 @@ syntax match rgbasmOperator '||'
 
 syntax match rgbasmSpecialChar '@'
 
-syntax match rgbasmDecNumber '\<[0-9]\+\>'
-syntax match rgbasmHexNumber '\$[0-9a-f]\+\>'
-syntax match rgbasmBinNumber '%[01]\+\>'
+syntax match rgbasmDecNumber '\<[0-9][0-9_]*\>'
+syntax match rgbasmHexNumber '\$[0-9a-f][0-9a-f_]*\>'
+syntax match rgbasmBinNumber '%[01][01_]*\>'
 
 syntax region rgbasmString start='"' skip='\\\\\|\\"' end='"'
 
