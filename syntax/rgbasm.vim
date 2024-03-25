@@ -101,6 +101,7 @@ syntax keyword rgbasmSpecialMnemonic di
 syntax keyword rgbasmSpecialMnemonic ei
 syntax keyword rgbasmSpecialMnemonic halt
 syntax keyword rgbasmSpecialMnemonic jp
+syntax keyword rgbasmSpecialMnemonic jr
 syntax keyword rgbasmSpecialMnemonic pop
 syntax keyword rgbasmSpecialMnemonic push
 syntax keyword rgbasmSpecialMnemonic ret
